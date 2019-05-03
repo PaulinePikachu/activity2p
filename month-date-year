@@ -1,0 +1,94 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+
+int month,date,year;
+
+cout << "Enter your Birth Month: (1-12) \n";
+cin >> month; 
+cout << "Enter your Birth Date: (1-31) \n";
+cin >> date;
+cout << "Enter your Birth Year:  \n";
+cin >> year;
+
+
+if (month == 1)
+{
+	cout << " January " <<  date << ", " << year << " \n";
+}
+
+
+else if (month == 2)
+{
+ cout << " February " <<  date << ", " << year << "\n";
+}
+
+else if (month == 2 && date > 29) 
+{
+	cout << "Invalid Date!!";
+}
+
+else if (month == 3)
+{
+ cout << " March " <<  date << ", " << year << "\n";
+}
+
+else if (month == 4)
+{
+ cout <<" April " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 5)
+{
+ cout <<" May " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 6)
+{
+ cout <<" June " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 7)
+{
+ cout <<" July " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 8)
+{
+ cout <<" August " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 9)
+{
+ cout <<" September " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 10)
+{
+ cout <<" October " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 11)
+{
+ cout <<" November " <<  date << ", " << year << "\n";
+} 
+
+else if (month == 12)
+{
+ cout <<" December " <<  date << ", " << year << "\n";
+} 
+
+
+else 
+{
+		cout << month << "," << date << "," << year << "\n";
+}
+
+_getch();
+return 0;
+
+}
